@@ -21,6 +21,7 @@ use alloy_rpc_types::{
 };
 use futures::future::join_all;
 use itertools::Itertools;
+use std::collections::HashMap;
 
 impl EthApi {
     /// Otterscan currently requires this endpoint, even though it's not part of the `ots_*`.
